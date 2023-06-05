@@ -1,7 +1,3 @@
-**********************************************
-Name: Chetan Bharat Dhangar
-SEB S190554228
-**********************************************
 
 #include <iostream>
 #include <limits.h>
@@ -67,16 +63,3 @@ int main() {
     inorderTraversal(root);
     return 0;
 }
-
-Output:
-
-Enter number of keys:4
-Enter keys:10
-20
-30
-40
-Enter frequencies of keys:9
-17
-56
-63
-Inorder traversal of the optimal binary search tree: 10 20 30 40

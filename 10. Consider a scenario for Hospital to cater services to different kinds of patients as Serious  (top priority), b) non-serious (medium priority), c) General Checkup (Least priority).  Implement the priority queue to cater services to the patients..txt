@@ -1,7 +1,3 @@
-**********************************************
-Name: Chetan Bharat Dhangar
-SEB S190554228
-**********************************************
 
 #include <iostream>
 #include <queue>
@@ -54,67 +50,3 @@ int main() {
   } while (choice != 3);
   return 0;
 }
-
-Output:
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 1
-
-Enter patient name: abc
-Enter patient priority (1 - Serious, 2 - Non-serious, 3 - General Checkup): 3
-Patient added successfully.
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 2
-
-Serving patient: abc
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 1
-
-Enter patient name: xyz
-Enter patient priority (1 - Serious, 2 - Non-serious, 3 - General Checkup): 2
-Patient added successfully.
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 1
-
-Enter patient name: abc xyz
-Enter patient priority (1 - Serious, 2 - Non-serious, 3 - General Checkup): 1
-Patient added successfully.
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 2
-
-Serving patient: abc xyz
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 2
-
-Serving patient: xyz
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 2
-
-No patients in the queue.
-
-1. Add Patient
-2. Serve Patient
-3. Exit
-Enter your choice: 3
-
-Exitingg...
-*/

@@ -1,8 +1,3 @@
-**********************************************
-Name: Chetan Bharat Dhangar
-SEB S190554228
-**********************************************
-Program:
 
 #include <iostream>
 #include <cstring>
@@ -107,70 +102,3 @@ int main()
     }
     return 0;
 }
-
-Output:
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:1
-
-Enter name:A
-Enter number:123
-
-1.Linear probing
-2.Quadratic probing
-Enter your option:1
-Inserted ABC's phone number after 0 collisions using linear probing.
-
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:1
-
-Enter name:DEF
-Enter number:123
-
-1.Linear probing
-2.Quadratic probing
-Enter your option:2
-Inserted DEF's phone number after 1 collisions using quadratic probing.
-
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:1
-
-Enter name:GHI
-Enter number:123
-
-1.Linear probing
-2.Quadratic probing
-Enter your option:1
-Inserted GHI's phone number after 2 collisions using linear probing.
-
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:2
-
-Enter number to search:123
-Found ABC's phone number after 0 comparisons using linear probing.
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:2
-
-Enter number to search:1233
-Phone number not found.
-
-1.INSERT NUMBER
-2.SEARCH NUMBER
-0.EXIT
-Enter your choice:0
-
-Exiting....

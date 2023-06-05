@@ -1,7 +1,4 @@
-**********************************************
-Name: Chetan Bharat Dhangar
-SEB S190554228
-**********************************************
+
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -113,46 +110,3 @@ int main() {
     } while (choice != 4);
     return 0;
 }
-
-
-Output:
-
-Menu
-1. Enter prefix expression
-2. Postorder traversal
-3. Delete tree
-4. Exit
-Enter your choice: 1
-Enter prefix expression: +--a*bc/def
-
-Menu
-1. Enter prefix expression
-2. Postorder traversal
-3. Delete tree
-4. Exit
-Enter your choice: 2
-Postorder traversal of expression tree: a b c * - d e / - f +
-
-Menu
-1. Enter prefix expression
-2. Postorder traversal
-3. Delete tree
-4. Exit
-Enter your choice: 3
-Tree deleted
-
-Menu
-1. Enter prefix expression
-2. Postorder traversal
-3. Delete tree
-4. Exit
-Enter your choice: 3
-Tree not constructed yet
-
-Menu
-1. Enter prefix expression
-2. Postorder traversal
-3. Delete tree
-4. Exit
-Enter your choice: 4
-Exiting program
